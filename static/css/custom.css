@@ -1,0 +1,15 @@
+.lg\:grid.lg\:grid-cols-4 > .hidden.lg\:block {
+  /* 广告位不存在时彻底隐藏左侧空列 */
+  display: none !important;
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid.lg\:grid-cols-4 > .lg\:col-span-2 {
+    /* 主体内容占 3 列，腾出 1 列给目录 */
+    grid-column: span 3 / span 3;
+  }
+
+  #dream-single-post-main {
+    max-width: 90ch;
+  }
+}

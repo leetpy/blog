@@ -16,6 +16,9 @@ params:
   description: "君子欺之以方"
   showPrevNextPost: false
   showTableOfContents: true
+  advanced:
+    customCSS:
+      - css/custom.css
   navItems:
     home:
       href: "/blog"
@@ -39,3 +42,10 @@ params:
     - series
     - about
     - github
+
+markup:
+  highlight:
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true # 使用内联样式，避免丢失主题配色
+    style: dracula # 可改为 monokai、github 等内置样式
