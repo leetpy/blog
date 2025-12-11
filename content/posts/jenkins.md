@@ -1,7 +1,7 @@
 ---
 title: Jenkins
 date: 2019-02-11T14:46:20+08:00
-lastmod: 2025-12-11T14:46:20+08:00
+lastmod: 2023-12-11T14:46:20+08:00
 author: 云弋
 # avatar: /img/author.jpg
 # authorlink: https://author.site

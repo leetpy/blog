@@ -2,7 +2,7 @@ baseURL: https://leetpy.github.io/blog
 languageCode: zh-Hans
 defaultContentLanguage: zh
 hasCJKLanguage: true
-title: 清风徐来
+title: 清风小竺
 author: 云弋
 theme: ["dream"]
 
@@ -12,7 +12,7 @@ params:
   TocSide: "right"
   avatar: "img/personal/avatar.jpg"
   email: "g1enyy0ung@gmail.com"
-  headerTitle: "清风徐来"
+  headerTitle: "清风小竺"
   description: "君子欺之以方"
   showPrevNextPost: false
   showTableOfContents: true
@@ -25,7 +25,7 @@ params:
       title: "首页"
       icon: "home"
     leetcode:
-      href: "https://github.com/leetpy"
+      href: "/blog/tags/leetcode/"
       target: "_blank"
       icon: "code"
       title: "leetcode"
@@ -39,9 +39,10 @@ params:
     - posts
     - categories
     - tags
-    - series
-    - about
+    - leetcode
     - github
+    - about
+  reorderShares:
 
 markup:
   highlight:

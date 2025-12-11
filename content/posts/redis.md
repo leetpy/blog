@@ -11,8 +11,8 @@ author: 云弋
 categories:
   - redis
 tags:
-  - tag1
-  - tag2
+  - redis
+
 # nolastmod: true
 # math: true
 draft: false
