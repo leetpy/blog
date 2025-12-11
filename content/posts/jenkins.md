@@ -15,7 +15,7 @@ tags:
   - jenkins
 # nolastmod: true
 # math: true
-draft: true
+draft: false
 ---
 
 Cut out summary from your post content here.

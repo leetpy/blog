@@ -2,7 +2,7 @@
 title: Go Channel
 date: 2025-12-11T14:40:58+08:00
 lastmod: 2025-12-11T14:40:58+08:00
-author: Author Name
+author: 云弋
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 # cover: /img/cover.jpg
@@ -10,10 +10,9 @@ author: Author Name
 # images:
 #   - /img/cover.jpg
 categories:
-  - category1
+  - go
 tags:
   - go
-  - tag2
 # nolastmod: true
 # math: true
 draft: false
