@@ -1,0 +1,45 @@
+baseURL: https://example.org/
+languageCode: zh-Hans
+defaultContentLanguage: zh
+hasCJKLanguage: true
+title: 清风徐来
+author: 云弋
+theme: ["dream"]
+
+params:
+  zenMode: false
+  author: "yunyi"
+  TocSide: "right"
+  avatar: "img/personal/avatar.jpg"
+  email: "g1enyy0ung@gmail.com"
+  headerTitle: "清风徐来"
+  description: "君子欺之以方"
+  showPrevNextPost: false
+  showTableOfContents: true
+  navItems:
+    home:
+      href: "/"
+      title: "首页"
+      icon: "home"
+    summary:
+      href: "/summary"
+      title: "摘要"
+    leetcode:
+      href: "https://github.com/leetpy"
+      target: "_blank"
+      icon: "code"
+      title: "leetcode"
+    github:
+      href: "https://github.com/leetpy"
+      target: "_blank"
+      icon: "logo-github"
+      title: "GitHub"
+  reorderNavItems:
+    - home
+    - posts
+    - categories
+    - tags
+    - series
+    - summary
+    - about
+    - github
