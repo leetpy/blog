@@ -18,12 +18,9 @@ params:
   showTableOfContents: true
   navItems:
     home:
-      href: "/"
+      href: "/blog"
       title: "首页"
       icon: "home"
-    summary:
-      href: "/summary"
-      title: "摘要"
     leetcode:
       href: "https://github.com/leetpy"
       target: "_blank"
@@ -40,6 +37,5 @@ params:
     - categories
     - tags
     - series
-    - summary
     - about
     - github
