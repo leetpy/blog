@@ -5,7 +5,7 @@ lastmod: 2025-12-12T10:05:00+08:00
 author: 云弋
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /blog/img/pythoned.png
+cover: /blog/img/python.webp
 # covercaption: a description of the cover image
 # images:
 #   - /img/pythoned.png
