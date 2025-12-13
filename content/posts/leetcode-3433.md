@@ -2,7 +2,7 @@
 title: Leetcode 3433
 date: 2025-12-12T19:26:23+08:00
 lastmod: 2025-12-12T19:26:23+08:00
-author: Author Name
+author: 云弋
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: /blog/img/leetcode.webp
