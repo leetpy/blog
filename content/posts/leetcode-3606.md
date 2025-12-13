@@ -24,7 +24,7 @@ draft: false
 
 [https://leetcode.cn/problems/coupon-code-validator/description/?envType=daily-question&envId=2025-12-13]()
 
-判断条件排序即可，需要不要多个数组排序
+判断条件排序即可，注意不要多个数组排序
 
 ```go
 import (
