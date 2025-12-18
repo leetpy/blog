@@ -2,8 +2,12 @@
 
 git submodule update --init --recursive
 
-# add doc
+# 常用操作
 
 ```bash
+# 添加
 hugo new content content/posts/my-first-post.md
+
+# 清理缓存
+hugo --cleanDestinationDir
 ```
