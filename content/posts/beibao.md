@@ -43,4 +43,17 @@ n 个物品，每个物品有重量和价值，背包最大重量为 m， 可以
 
 所以有递推公式： dp[i][j] = max(dp[i-1][j], dp[i-1][j-wi] + value[i])
 
+####  初始化
 
+dp[i][j] 只依赖左上方的元素。 dp[i][0] = 0, dp[0][j] = value[j] if weight[0] <= j else 0
+
+
+#### 遍历
+
+```go
+for i := range goods {
+  for j := range m {
+    dp[i][j] = 
+  }
+}
+```
