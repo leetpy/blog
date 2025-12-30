@@ -4,7 +4,7 @@ defaultContentLanguage: zh
 hasCJKLanguage: true
 title: 清风小竺
 author: 云弋
-theme: ["dream"]
+theme: ["water"]
 
 params:
   zenMode: false
@@ -43,6 +43,8 @@ params:
     - github
     - about
   reorderShares:
+  experimental:
+    jsdate: true
 
 markup:
   highlight:
