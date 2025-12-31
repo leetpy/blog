@@ -5,15 +5,14 @@ lastmod: 2025-12-17T19:49:28+08:00
 author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /img/cover.jpg
+cover: /blog/img/leetcode.webp
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg
 categories:
-  - category1
+  - 算法
 tags:
-  - tag1
-  - tag2
+  - leetcode
 # nolastmod: true
 # math: true
 draft: true

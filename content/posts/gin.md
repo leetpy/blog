@@ -20,9 +20,9 @@ draft: false
 
 <!--more-->
 
-## 参数获取
+# 参数获取
 
-### 位置参数
+## 位置参数
 
 - 获取到的类型都是 string 类型，需要自己进行类型转换
 - 如果参数不存在，返回的是空字符串
@@ -43,7 +43,7 @@ r.GET("/orders/:id/items/:item_id", func(c *gin.Context) {
 })
 ```
 
-### Query 参数
+## Query 参数
 
 ```go
 // GET /search?keyword=gin&page=2
@@ -52,7 +52,7 @@ keyword := c.Query("keyword")        // 不存在返回 ""
 page := c.DefaultQuery("page", "1")  // 不存在给默认值
 ```
 
-### Form 参数 (x-www-form-urlencoded / multipart）
+## Form 参数 (x-www-form-urlencoded / multipart）
 
 ```go
 // POST /login
@@ -70,7 +70,7 @@ password := c.DefaultPostForm("password", "")
 file, _ := c.FormFile("file")
 ```
 
-### JSON
+## JSON
 
 ```go
 type CreateUserReq struct {
@@ -82,14 +82,14 @@ var createParmas CreateUserReq
 err := c.ShouldBindJSON(&createParmas)
 ```
 
-### Header 参数
+## Header 参数
 
 ```go
 token := c.GetHeader("Authorization")
 reqID := c.GetHeader("X-Request-Id")
 ```
 
-### Cookie 参数
+## Cookie 参数
 
 ```go
 // 获取
@@ -99,13 +99,13 @@ cookie, err := c.Cookie("session_id")
 c.SetCookie("session_id", "xxx", 3600, "/", "", false, true)
 ```
 
-## 参数校验
+# 参数校验
 
 gin 在调用 bind 相关函数时，会提取 `binding` 注解，然后使用 `go-playground/validator.v10` 库来校验。
 
 > 虽然 `go-playground/validator.v10` 库使用的是 `validate` 注解，但是在 gin 框架中，必须使用 `binding` 注解
 
-### 结构体定义
+## 结构体定义
 
 ```go
 type CreateUserReq struct {
@@ -115,7 +115,7 @@ type CreateUserReq struct {
 }
 ```
 
-### 自定义校验器
+## 自定义校验器
 
 有时候，对于某个参数，validator 没有提供默认的校验方式，我们需要有自己的校验方法，
 可以通过 `RegisterValidation` 来注册自己的校验器。
@@ -139,7 +139,7 @@ type Req struct {
 }
 ```
 
-### 返回校验错误信息
+## 返回校验错误信息
 
 一般情况下，我们在调用 `Bind` 之后，判断 err 是否为空，然后直接返回 err 的错误信息。
 默认情况下，`validator` 返回的错误信息包含每个校验出错的信息。返回的是英文的，
@@ -160,7 +160,7 @@ func(c *gin.Context) {
 }
 ```
 
-### 翻译错误
+## 翻译错误
 
 ```go
 import (

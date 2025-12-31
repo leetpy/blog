@@ -20,7 +20,7 @@ draft: false
 
 <!--more-->
 
-## 查看
+# 查看
 
 ```sql
 -- 查看是否开启了慢查询日志
@@ -33,14 +33,14 @@ SHOW VARIABLES LIKE 'slow_query_log_file';
 SHOW VARIABLES LIKE 'long_query_time';
 ```
 
-## 配置
+# 配置
 
 ```sql
 -- 临时开启（重启后失效）
 SET GLOBAL slow_query_log = 'ON';
 ```
 
-### 永久开启
+## 永久开启
 
 编辑 MySQL 配置文件（通常是 /etc/my.cnf 或 /etc/mysql/my.cnf），在 [mysqld] 段添加或修改：
 
@@ -58,7 +58,7 @@ log_queries_not_using_indexes = 1  # 可选：记录未使用索引的查询
 systemctl restart mysql
 ```
 
-## 分析
+# 分析
 
 ```bash
 # 直接看日志
@@ -72,6 +72,6 @@ mysqldumpslow -s t -t 10 /var/log/mysql/mysql-slow.log
 mysqldumpslow -s c -t 10 /var/log/mysql/mysql-slow.log
 ```
 
-## 场景
+# 场景
 
 1. 检查是否走了索引，如果没有则优化 SQL 利用索引

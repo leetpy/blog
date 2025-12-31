@@ -1,5 +1,5 @@
 ---
-title: Python uv
+title: Python uv 使用
 date: 2025-12-12T10:05:00+08:00
 lastmod: 2025-12-12T10:05:00+08:00
 author: 云弋

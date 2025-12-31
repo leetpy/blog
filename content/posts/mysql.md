@@ -11,9 +11,7 @@ cover: /img/cover.jpg
 #   - /img/cover.jpg
 categories:
   - category1
-tags:
-  - tag1
-  - tag2
+
 # nolastmod: true
 # math: true
 draft: false

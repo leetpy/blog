@@ -5,14 +5,14 @@ lastmod: 2025-12-23T15:29:31+08:00
 author: 云弋
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /img/cover.jpg
+cover: /blog/img/tailwindcss.avif
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg
 categories:
-  - category1
+  - 前端
 tags:
-  - tag1
+  - css
 # nolastmod: true
 # math: true
 draft: false
